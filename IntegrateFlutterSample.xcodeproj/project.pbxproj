@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6841383329F1BB9F00AFB2BB /* IntegrateFlutterSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6841383229F1BB9F00AFB2BB /* IntegrateFlutterSampleApp.swift */; };
-		6841383529F1BB9F00AFB2BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6841383429F1BB9F00AFB2BB /* ContentView.swift */; };
+		681C21412A0CE57D008AD97A /* AdsSdk in Frameworks */ = {isa = PBXBuildFile; productRef = 681C21402A0CE57D008AD97A /* AdsSdk */; };
+		681C21442A0CE7D4008AD97A /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681C21432A0CE7D4008AD97A /* Section.swift */; };
+		6841383529F1BB9F00AFB2BB /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6841383429F1BB9F00AFB2BB /* MainApp.swift */; };
 		6841383729F1BBA000AFB2BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6841383629F1BBA000AFB2BB /* Assets.xcassets */; };
 		6841383B29F1BBA000AFB2BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6841383A29F1BBA000AFB2BB /* Preview Assets.xcassets */; };
+		68F92F592A0D4C3700C5623F /* IntegrateFlutterSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F92F582A0D4C3700C5623F /* IntegrateFlutterSampleApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		088E3659352FB3DF6920127B /* Pods-IntegrateFlutterSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateFlutterSample.debug.xcconfig"; path = "Target Support Files/Pods-IntegrateFlutterSample/Pods-IntegrateFlutterSample.debug.xcconfig"; sourceTree = "<group>"; };
+		681C21432A0CE7D4008AD97A /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		6841382F29F1BB9F00AFB2BB /* IntegrateFlutterSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegrateFlutterSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6841383229F1BB9F00AFB2BB /* IntegrateFlutterSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrateFlutterSampleApp.swift; sourceTree = "<group>"; };
-		6841383429F1BB9F00AFB2BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6841383429F1BB9F00AFB2BB /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		6841383629F1BBA000AFB2BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6841383829F1BBA000AFB2BB /* IntegrateFlutterSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntegrateFlutterSample.entitlements; sourceTree = "<group>"; };
 		6841383A29F1BBA000AFB2BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68F92F582A0D4C3700C5623F /* IntegrateFlutterSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrateFlutterSampleApp.swift; sourceTree = "<group>"; };
+		CF4BE7614CF55819D98DA70C /* Pods-IntegrateFlutterSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateFlutterSample.release.xcconfig"; path = "Target Support Files/Pods-IntegrateFlutterSample/Pods-IntegrateFlutterSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +32,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681C21412A0CE57D008AD97A /* AdsSdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		304EBB3D2BCC90C70BDE348C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		443DC1B401CA5D1245F8F6C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				088E3659352FB3DF6920127B /* Pods-IntegrateFlutterSample.debug.xcconfig */,
+				CF4BE7614CF55819D98DA70C /* Pods-IntegrateFlutterSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		681C21422A0CE77D008AD97A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				6841383429F1BB9F00AFB2BB /* MainApp.swift */,
+				681C21432A0CE7D4008AD97A /* Section.swift */,
+				68F92F582A0D4C3700C5623F /* IntegrateFlutterSampleApp.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
 		6841382629F1BB9F00AFB2BB = {
 			isa = PBXGroup;
 			children = (
 				6841383129F1BB9F00AFB2BB /* IntegrateFlutterSample */,
 				6841383029F1BB9F00AFB2BB /* Products */,
+				443DC1B401CA5D1245F8F6C2 /* Pods */,
+				304EBB3D2BCC90C70BDE348C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +86,7 @@
 		6841383129F1BB9F00AFB2BB /* IntegrateFlutterSample */ = {
 			isa = PBXGroup;
 			children = (
-				6841383229F1BB9F00AFB2BB /* IntegrateFlutterSampleApp.swift */,
-				6841383429F1BB9F00AFB2BB /* ContentView.swift */,
+				681C21422A0CE77D008AD97A /* Presentation */,
 				6841383629F1BBA000AFB2BB /* Assets.xcassets */,
 				6841383829F1BBA000AFB2BB /* IntegrateFlutterSample.entitlements */,
 				6841383929F1BBA000AFB2BB /* Preview Content */,
@@ -76,6 +109,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6841383E29F1BBA000AFB2BB /* Build configuration list for PBXNativeTarget "IntegrateFlutterSample" */;
 			buildPhases = (
+				8A50E4AAB21DD5104AC0C96D /* [CP] Check Pods Manifest.lock */,
 				6841382B29F1BB9F00AFB2BB /* Sources */,
 				6841382C29F1BB9F00AFB2BB /* Frameworks */,
 				6841382D29F1BB9F00AFB2BB /* Resources */,
@@ -85,6 +119,9 @@
 			dependencies = (
 			);
 			name = IntegrateFlutterSample;
+			packageProductDependencies = (
+				681C21402A0CE57D008AD97A /* AdsSdk */,
+			);
 			productName = IntegrateFlutterSample;
 			productReference = 6841382F29F1BB9F00AFB2BB /* IntegrateFlutterSample.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +150,9 @@
 				Base,
 			);
 			mainGroup = 6841382629F1BB9F00AFB2BB;
+			packageReferences = (
+				681C213F2A0CE57D008AD97A /* XCRemoteSwiftPackageReference "ios_ads_sdk" */,
+			);
 			productRefGroup = 6841383029F1BB9F00AFB2BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,13 +174,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A50E4AAB21DD5104AC0C96D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntegrateFlutterSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6841382B29F1BB9F00AFB2BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6841383529F1BB9F00AFB2BB /* ContentView.swift in Sources */,
-				6841383329F1BB9F00AFB2BB /* IntegrateFlutterSampleApp.swift in Sources */,
+				681C21442A0CE7D4008AD97A /* Section.swift in Sources */,
+				6841383529F1BB9F00AFB2BB /* MainApp.swift in Sources */,
+				68F92F592A0D4C3700C5623F /* IntegrateFlutterSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +324,7 @@
 		};
 		6841383F29F1BBA000AFB2BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088E3659352FB3DF6920127B /* Pods-IntegrateFlutterSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -279,11 +346,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.IntegrateFlutterSample.IntegrateFlutterSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -296,6 +364,7 @@
 		};
 		6841384029F1BBA000AFB2BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4BE7614CF55819D98DA70C /* Pods-IntegrateFlutterSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,11 +386,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.IntegrateFlutterSample.IntegrateFlutterSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -354,6 +424,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		681C213F2A0CE57D008AD97A /* XCRemoteSwiftPackageReference "ios_ads_sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mduccc/ios_ads_sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		681C21402A0CE57D008AD97A /* AdsSdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 681C213F2A0CE57D008AD97A /* XCRemoteSwiftPackageReference "ios_ads_sdk" */;
+			productName = AdsSdk;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6841382729F1BB9F00AFB2BB /* Project object */;
 }

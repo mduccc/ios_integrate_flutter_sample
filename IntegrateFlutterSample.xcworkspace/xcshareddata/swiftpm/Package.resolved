@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios_ads_sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mduccc/ios_ads_sdk",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f7540f2339c1cd248513cb47271ee3dbb494c05c"
+      }
+    }
+  ],
+  "version" : 2
+}

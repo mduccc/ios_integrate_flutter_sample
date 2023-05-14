@@ -1,0 +1,16 @@
+PODS:
+  - Flutter (3.0.500)
+
+DEPENDENCIES:
+  - Flutter (from `/Users/mducc1412/Documents/Project/Persional/flutter_ads_sdk/build/ios/framework/Release`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "/Users/mducc1412/Documents/Project/Persional/flutter_ads_sdk/build/ios/framework/Release"
+
+SPEC CHECKSUMS:
+  Flutter: 4d311a777d4e380946ac9fb314e1a7d831d102e0
+
+PODFILE CHECKSUM: 4fc847d5182b6d1701e42f78d4781e44a7271b6f
+
+COCOAPODS: 1.12.1
